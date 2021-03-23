@@ -15,8 +15,8 @@ Add end date and display length of trip.
 # Implementation
 after user input start date, end date, start city and end city, then submit the from, this APP will do:   
 1, call Geonames API to get the destination city latitude and longtitude.   
-2, use this longtitude and latitude to call Weatherbit API to get the weather of City.     
-3, use the city name to call Pixabay API to get the image of this city.   
+2, use this longtitude and latitude to call Weatherbit API to get the weather of destination.     
+3, use the destination city name to call Pixabay API to get the image of this city.   
 4, put all the trip info into server storage by calling "post" routing.     
 5, retrieve the info from server by calling "get" route, and update UI dynamically.    
 This project combines all the knowledge learn from previous project.    
