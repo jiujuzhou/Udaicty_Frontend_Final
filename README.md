@@ -12,16 +12,17 @@
     "webpack-cli": "3.3.5"    
 
 # How to run
-1, install all dependecies with: npm install    
+cd to the root folder.
+1, install all dependecies with: 
+    npm install    
 2, run with produciton mode:    
-npm run build-prod    
-npm start   
-open browser: http://localhost:8080/   
-3, run with test mode:    
-npm run build-dev   
-4, type in start city name, destination city, start date & return date, then submit the form.   
-5, do test with:   
-npm run test
+    npm run build-prod    
+    npm start   
+    open browser: http://localhost:8080/   
+3, run with developing mode:    
+    npm run build-dev   
+4, do test with:   
+    npm run test
 
 # The extention
 Add end date and display length of trip.
