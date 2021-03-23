@@ -18,7 +18,7 @@ after user input start date, end date, start city and end city, then submit the 
 2, use this longtitude and latitude to call Weatherbit API to get the weather of destination.     
 3, use the destination city name to call Pixabay API to get the image of this city.   
 4, put all the trip info into server storage by calling "post" routing.     
-5, retrieve the info from server by calling "get" route, and update UI dynamically.    
+5, retrieve the info from server by calling "get" routing, and update UI dynamically.    
 This project combines all the knowledge learn from previous project.    
 Use only vanilla javascript, Project is built up with node.js+npm+express+webpack+service workers.     
  
